@@ -1,0 +1,30 @@
+POLICES (FACULTATIF)
+====================
+
+Tous les textes sont en Myriad Pro. Myriad Pro est une police Adobe, elle n'est pas fournie :
+  - si elle est installée sur l'ordinateur (activée dans Adobe Fonts), la page l'utilise directement ;
+  - sinon la page s'affiche en Source Sans 3 (police libre la plus proche, déjà dans index.html).
+Pour qu'elle s'affiche sur tous les ordinateurs, même hors ligne, il faut l'intégrer à index.html
+à partir de ses fichiers .otf (Regular, Italic, Semibold, Bold).
+
+Ce dossier sert aussi à mettre d'autres polices :
+
+1. Posez ici les fichiers de police : .woff2 de préférence (ou .woff, .ttf, .otf).
+2. Ouvrez textes.js, rubrique TYPO (en bas du fichier), et déclarez-les, par exemple :
+
+     titres: "Playfair Display",
+     fichiers: {
+       "Playfair Display": "polices/PlayfairDisplay.woff2",
+     },
+
+   Plusieurs graisses pour une même police :
+     "Inter": [{ fichier: "polices/Inter-Regular.woff2", graisse: 400 },
+               { fichier: "polices/Inter-SemiBold.woff2", graisse: 600 }],
+
+3. Enregistrez et rechargez la page.
+
+Si une police ne s'affiche pas (certains navigateurs refusent les polices lues depuis le disque) :
+installez-la sur l'ordinateur (double-clic sur le fichier, « Installer ») et indiquez seulement son nom
+dans TYPO, sans la déclarer dans « fichiers ».
+
+Vérifiez que la licence de la police autorise son usage sur une page web.

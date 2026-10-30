@@ -1,0 +1,75 @@
+RUINART x ANISH KAPOOR - LA VISITE EN 3D
+========================================
+
+Ouvrir : double-cliquez sur index.html (Chrome ou Edge conseillés).
+Tout fonctionne sans internet : la 3D, les textures et les polices sont dans le fichier
+(garder à côté de index.html les dossiers oeuvres/ et visuels/, et le fichier textes.js).
+
+Navigation
+  Molette ou pavé tactile : la caméra avance ; remonter fait reculer.
+  Espace ou flèche bas : étape suivante.   Flèche haut : étape précédente.
+  F : plein écran.   Début / Fin : premier / dernier plan.
+  Les points à gauche de l'écran permettent d'aller directement à une étape.
+
+Le parcours
+  00  La cour d'honneur : le logo Ruinart × Anish Kapoor
+  01  L'association : pourquoi Anish Kapoor (dans la cour)
+  02  Le print : après l'entrée, le magazine (Numéro art) accompagne toute la
+      descente du grand escalier voûté et s'ouvre sur la double page
+      « L'œuvre du temps » ; quatre textes se succèdent pendant l'ouverture
+      (les deux visuels se posent dans visuels/, voir visuels/LISEZ-MOI.txt)
+  03  Les crayères : en bas de l'escalier, l'arche puis les galeries
+  04  Anish Kapoor : à l'entrée des crayères, juste avant l'œuvre 01
+  05  Le stand : l'arrivée dans la grande crayère, face à l'œuvre 02
+  06  Œuvre 02 : le tour de l'œuvre, puis le grand escalier de pierre
+  07  Œuvre 03 : dans sa niche, au niveau bas
+  08  La dégustation : au centre de la salle, l'œuvre 02 en version
+      monumentale (reprise du dossier oeuvres/), avec une grande bouteille
+      Ruinart debout dans la porte de la tour ; le bar fait le tour de
+      l'œuvre (anneau de pierre blanche cannelée, plateau de marbre, chants
+      de laiton, halo doré au sol) et porte la signature de l'artiste en
+      néon rouge, qui s'allume quand on entre. Sur le bar : bouteilles
+      Ruinart, flûtes, seaux à glace et une pyramide de coupes ; tabourets
+      hauts sur les côtés. À gauche en entrant, un petit bar avec un mur de
+      bouteilles rétroéclairé ; des kakémonos au fond et près du petit bar.
+      En continuant à défiler, la bouteille Ruinart se débouche, se lève et
+      sert une flûte, puis la caméra plonge dans la flûte jusqu'au fond
+      blanc et au texte de fin.
+
+Les œuvres
+  Les œuvres 01, 02 et 03 et les kakémonos sont chargés depuis le dossier
+  oeuvres/ (oeuvres.js, appelé par la dernière ligne de textes.js) : garder ce
+  dossier à côté de index.html. Le bouton « Voir l'œuvre » (sur le texte du
+  stand ou sur le cartel de l'œuvre 02) ouvre la photo de référence ; un clic
+  sur un kakémono (à l'entrée ou dans la salle de dégustation) ouvre sa
+  maquette. Échap ou la croix pour la refermer.
+
+Les bouteilles
+  Les bouteilles de la dégustation (le service, le bar, les seaux, le mur de
+  bouteilles) reprennent le modèle de bouteille Ruinart du dossier oeuvres/
+  (bouteille-fermee) : la bouteille du service et celle de la porte de l'œuvre
+  en pleine définition, les autres dans une version allégée intégrée à
+  index.html (si le modèle change, il faut refaire cette version allégée).
+  Sans le dossier oeuvres/, la bouteille du service redevient la bouteille
+  générique d'origine. Les bouteilles des pupitres et des piles des crayères
+  sont génériques.
+
+Modifier les textes et les typographies
+  Tous les textes sont dans textes.js, à côté de index.html. Ouvrez-le avec un
+  éditeur de texte (Bloc-notes, TextEdit, VS Code), changez ce qui est entre
+  guillemets, enregistrez, rechargez la page.
+  Les textes sont en Myriad Pro (voir polices/LISEZ-MOI.txt).
+  En bas du même fichier, la rubrique TYPO change les polices (titres,
+  italiques, texte, chiffres), la taille générale des textes et la couleur
+  d'accent. Une police fournie en fichier se pose dans le dossier polices/
+  (voir polices/LISEZ-MOI.txt).
+  La ligne « fin » choisit la couleur du fond de la fin : vide = blanc craie,
+  "noir" pour un fond noir, ou une couleur au format "#rrggbb".
+  La ligne « tailles » ajuste la taille de chaque rôle (titres, italique,
+  texte, étiquettes) si une nouvelle police paraît plus grande ou plus petite.
+  Si textes.js est supprimé, la page garde ses textes d'origine.
+
+Visuels à ajouter : voir visuels/LISEZ-MOI.txt
+
+Si l'animation saccade : la page baisse d'elle-même la définition ; vous pouvez
+aussi fermer les autres onglets ou réduire la fenêtre.

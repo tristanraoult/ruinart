@@ -1,0 +1,13 @@
+VISUELS À AJOUTER
+=================
+
+Déposez ici vos images, avec exactement ces noms (en .jpg, .png ou .webp) :
+
+  Le print (à l'entrée) : le magazine qui s'ouvre
+    print-couverture.jpg  la couverture, magazine fermé     (vertical 3:4, ex. 1500 x 2000 px)
+    print-interieur.jpg   la double page, magazine ouvert   (horizontal 3:2, ex. 3000 x 2000 px) :
+                          la moitié gauche se pose au dos de la couverture, la moitié droite dessous
+
+Rechargez la page : les images remplacent les cadres « Visuel à venir ».
+La maquette du kakémono (ouverte par un clic sur un kakémono) est déjà intégrée à index.html.
+Le dossier « visuels » doit rester à côté du fichier index.html.
