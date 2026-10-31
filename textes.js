@@ -145,7 +145,7 @@ window.TYPO = {
   },
   taille: 1,       // taille générale des textes : 1 = normal, 1.1 = 10 % plus grand
   accent: "",      // couleur d'accent (le rouge des numéros), ex. "#d6292f"
-  fin: "",         // couleur du fond de la fin (après la plongée dans le verre) : "" = blanc craie ; ex. "#0b0908" pour un fond noir
+  fin: "",         // fond de la fin (après la plongée dans le verre) : "" = champagne (lumière dorée, bulles) ; "blanc" = blanc craie ; ex. "#0b0908" pour un fond noir
   tailles: { titres: 1, italique: 1, texte: 1, etiquettes: 1 },   // réglage fin par rôle quand une police paraît plus grande ou plus petite (1 = normal)
   css: "",         // réglages avancés (CSS), ex. ".lead { letter-spacing: .01em; }"
 };

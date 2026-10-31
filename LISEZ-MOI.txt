@@ -35,7 +35,8 @@ Le parcours
       En continuant à défiler, l'étui de la bouteille Ruinart s'ouvre (fermé,
       mi-ouvert, ouvert), le haut de la capsule s'enlève et le bouchon sort
       du goulot ; la bouteille sort de l'étui et sert une flûte, puis la
-      caméra plonge dans la flûte jusqu'au fond blanc et au texte de fin.
+      caméra plonge dans la flûte : la lumière se pose dans le verre (ambre
+      doré, bulles lentes) et la page de fin apparaît, signée au néon.
 
 Les œuvres
   Les œuvres 01, 02 et 03 et les kakémonos sont chargés depuis le dossier
@@ -68,8 +69,9 @@ Modifier les textes et les typographies
   italiques, texte, chiffres), la taille générale des textes et la couleur
   d'accent. Une police fournie en fichier se pose dans le dossier polices/
   (voir polices/LISEZ-MOI.txt).
-  La ligne « fin » choisit la couleur du fond de la fin : vide = blanc craie,
-  "noir" pour un fond noir, ou une couleur au format "#rrggbb".
+  La ligne « fin » choisit le fond de la fin : vide = champagne (lumière
+  dorée et bulles), "blanc" = blanc craie, "noir" pour un fond noir, ou une
+  couleur au format "#rrggbb".
   La ligne « tailles » ajuste la taille de chaque rôle (titres, italique,
   texte, étiquettes) si une nouvelle police paraît plus grande ou plus petite.
   Si textes.js est supprimé, la page garde ses textes d'origine.
