@@ -32,9 +32,10 @@ Le parcours
       Ruinart, flûtes, seaux à glace et une pyramide de coupes ; tabourets
       hauts sur les côtés. À gauche en entrant, un petit bar avec un mur de
       bouteilles rétroéclairé ; des kakémonos au fond et près du petit bar.
-      En continuant à défiler, la bouteille Ruinart se débouche, se lève et
-      sert une flûte, puis la caméra plonge dans la flûte jusqu'au fond
-      blanc et au texte de fin.
+      En continuant à défiler, l'étui de la bouteille Ruinart s'ouvre (fermé,
+      mi-ouvert, ouvert), le haut de la capsule s'enlève et le bouchon sort
+      du goulot ; la bouteille sort de l'étui et sert une flûte, puis la
+      caméra plonge dans la flûte jusqu'au fond blanc et au texte de fin.
 
 Les œuvres
   Les œuvres 01, 02 et 03 et les kakémonos sont chargés depuis le dossier
@@ -50,6 +51,10 @@ Les bouteilles
   (bouteille-fermee) : la bouteille du service et celle de la porte de l'œuvre
   en pleine définition, les autres dans une version allégée intégrée à
   index.html (si le modèle change, il faut refaire cette version allégée).
+  Au service, l'étui s'ouvre avec les modèles bouteille-mi-ouverture et
+  bouteille-ouverte (chargés au démarrage). La séparation entre la bouteille
+  et l'étui du modèle « ouverte » est calculée pour ce modèle précis : s'il
+  change, l'ouverture est désactivée et la bouteille se débouche comme avant.
   Sans le dossier oeuvres/, la bouteille du service redevient la bouteille
   générique d'origine. Les bouteilles des pupitres et des piles des crayères
   sont génériques.
